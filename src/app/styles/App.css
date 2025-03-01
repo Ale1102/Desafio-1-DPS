@@ -1,0 +1,106 @@
+/* App.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #2d2b63;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .header-logo {
+    .header-logo {
+      width: 80px; 
+      height: 80px; 
+      margin-left: auto;
+
+    }
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  h3 {
+    margin: 0.5rem 0;
+  }
+  
+  p {
+    margin: 0.5rem 0;
+  }
+  
+  button {
+    
+    background-color: #0509fe;
+    color: rgb(238, 238, 238);
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 1rem;
+ 
+    display: flex;
+
+  }
+  
+  button:hover {
+    background-color: #08d6ed;
+  }
+  
+  /* Estilos para la lista de materias */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: white;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para el resumen de inscripción */
+  .resumen {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+  }
+  
+  .resumen ul {
+    margin: 0;
+  }
+  
+  .resumen li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .resumen button {
+    background-color: #f44336;
+  }
+  
+  .resumen button:hover {
+    background-color: #e53935;
+  }
